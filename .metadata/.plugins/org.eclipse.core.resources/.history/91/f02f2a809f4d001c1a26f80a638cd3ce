@@ -1,0 +1,5 @@
+package com.human.DAO;
+
+public class IF_BBSDAOImpl implements IF_BBSDAO {
+
+}

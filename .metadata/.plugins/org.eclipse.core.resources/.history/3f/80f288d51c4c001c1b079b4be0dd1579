@@ -1,0 +1,8 @@
+package com.human.VO;
+
+public class MEMOVO {
+	private String name = null;
+	private String memo = null;
+	private String date = null;
+	private int views = 0;
+}

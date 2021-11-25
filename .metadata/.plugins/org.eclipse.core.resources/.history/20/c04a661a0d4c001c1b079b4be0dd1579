@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ski_i</title>
+</head>
+<body>
+<hr>
+메뉴 : <a href="inputForm">글쓰기</a>	<!-- herf로 컨트롤러 지정 -->
+<hr>
+</body>
+</html>

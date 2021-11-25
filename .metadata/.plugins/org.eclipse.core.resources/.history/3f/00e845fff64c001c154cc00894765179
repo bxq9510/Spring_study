@@ -1,0 +1,21 @@
+package interfaceGame;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int jumsu = 0;
+		int levelUP = 5;
+		Scanner in = new Scanner(System.in);
+		
+		while(true) {
+			in.nextLine(); // 슛
+			System.out.println("^"); // 미사일
+			jumsu++; // 슛을 쏘면 그냥 점수 준다
+			System.out.println("나의 점수: " + jumsu);
+		}
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.human.bbs;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+public class MemberController {
+	@RequestMapping(value = "/MemberForm", method = RequestMethod.GET) // 클라이언트 요청,
+	public String MemberForm(HttpServletRequest httpServletRequest) {
+		return "memberForm";
+	}
+	@RequestMapping(value = "/MemberinputForm", method = RequestMethod.POST) // 클라이언트 요청,
+	public String MemberinputForm(HttpServletRequest httpServletRequest) {
+		String id = httpServletRequest.getParameter("id");
+		String pw = httpServletRequest.getParameter("pw");
+		return "memberForm";
+	}
+	@RequestMapping(value = "/Memberinput", method = RequestMethod.POST) // 클라이언트 요청,
+	public String MemberInput(HttpServletRequest httpServletRequest, Model model) {
+		String id = httpServletRequest.getParameter("id");
+		String pw = httpServletRequest.getParameter("pw");
+		System.out.println("id : " + id + "pw : " + pw);
+		
+		return "memberList";
+	}
+}

@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="memoList">
+	<table border=1>
+		<tr>
+			<th><h2>MENU</h2></th>
+			<th><a href="memoForm">Main</a></th>
+			<th><a href="memoInput">Write MEMO</a></th>
+			<th><a href="memoList">Full MEMO</a></th>
+		</tr>
+		<tr>
+			<th>Title</th>
+			<th><input type="text" name="title" id="" /></th>
+			<th>Writer</th>
+			<input type="text" name="name" id="" />
+		</tr>
+		<tr>
+			<th colspan=4>Memo</th>
+		</tr>
+		<tr>
+			<th><input type="text" name="memo" id="" /></th>
+		</tr>
+		<tr>
+			<th><input type="submit" value="Save" /></th>
+		</tr>
+	</table>
+</form>
+</body>
+</html>

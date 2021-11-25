@@ -1,0 +1,15 @@
+package com.human.service;
+
+import com.human.DAO.IF_BBSDAO;
+import com.human.VO.BBSVO;
+
+public class IF_BBSServiceImpl implements IF_BBSService {
+	private IF_BBSDAO bbsdao;
+	@Override
+	public void insert(BBSVO bbsvo) throws Exception {
+		// TODO Auto-generated method stub
+		// 실제 데이터베이스 작업 등 서비스 로직을 실행한다
+		bbsdao.insert(bbsvo);
+	}
+
+}

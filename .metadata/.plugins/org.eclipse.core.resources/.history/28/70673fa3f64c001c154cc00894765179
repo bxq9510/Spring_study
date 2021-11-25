@@ -1,0 +1,12 @@
+package interfaceGame;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int jumsu = 0;
+		int levelUP = 0;
+		Scanner in = new Scanner(System.in);
+	}
+
+}

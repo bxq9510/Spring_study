@@ -1,0 +1,19 @@
+package com.human.DAO;
+
+import javax.inject.Inject;
+
+import org.apache.ibatis.session.SqlSession;
+
+import com.human.VO.BBSVO;
+
+public class IF_BBSDAOImpl implements IF_BBSDAO {
+	
+	@Inject // 컨테이너로부터 SqlSession 타입 객체를 주입 받아라.. 그러면 sqlSession참조변수 객체를 주입받아 참조 가능
+	private SqlSession sqlSession;
+	@Override
+	public void insert(BBSVO bbsvo) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MEMO BOARD</title>
+</head>
+<body>
+<table>
+	<tr>
+		<th><h2>MENU</h2></th>
+		<th><a href="">Main</a></th>
+		<th><a href="">Write MEMO</a></th>
+		<th><a href="">Full MEMO</a></th>
+	</tr>
+</table>
+<hr>
+MENU
+<hr>
+<a href="inputForm">MEMO</a>	<!-- herf로 컨트롤러 지정 -->
+<a href="bbsList">VIEW ALL</a>
+<hr>
+</body>
+</html>

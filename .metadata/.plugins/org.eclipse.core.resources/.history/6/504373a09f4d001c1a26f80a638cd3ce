@@ -1,0 +1,16 @@
+package com.human.DAO;
+
+import org.apache.ibatis.session.SqlSession;
+
+import com.human.VO.BBSVO;
+
+public class IF_BBSDAOImpl implements IF_BBSDAO {
+	
+	private SqlSession sqlSession;
+	@Override
+	public void insert(BBSVO bbsvo) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

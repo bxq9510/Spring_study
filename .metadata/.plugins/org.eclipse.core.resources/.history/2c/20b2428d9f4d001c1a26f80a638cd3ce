@@ -1,0 +1,13 @@
+package com.human.DAO;
+
+import com.human.VO.BBSVO;
+
+public class IF_BBSDAOImpl implements IF_BBSDAO {
+
+	@Override
+	public void insert(BBSVO bbsvo) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

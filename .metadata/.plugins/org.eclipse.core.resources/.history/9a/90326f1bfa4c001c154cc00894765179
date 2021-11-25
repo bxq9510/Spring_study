@@ -1,0 +1,17 @@
+package chulsuData;
+
+public class oracleCls implements IF_do {
+
+	@Override
+	public void insert() {
+		// TODO Auto-generated method stub
+		System.out.println("oracle에 insert 되었습니다");
+	}
+
+	@Override
+	public void select() {
+		// TODO Auto-generated method stub
+		System.out.println("oracle에 insert 되었습니다");
+	}
+
+}

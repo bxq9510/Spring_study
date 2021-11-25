@@ -1,0 +1,12 @@
+
+11월 24, 2021 24:22:13.00 NEW SESSION
+11월 24, 2021 24:22:13.00 [14064:7776:1124/002212.997:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+11월 24, 2021 24:22:13.00 [14064:7776:1124/002212.998:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+11월 24, 2021 24:22:13.00 [14064:7776:1124/002212.998:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+11월 24, 2021 24:22:13.00 [14064:7776:1124/002213.000:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+
+11월 24, 2021 11:08:05.76 NEW SESSION
+11월 24, 2021 11:08:05.76 [10652:11724:1124/110805.762:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+11월 24, 2021 11:08:05.76 [10652:11724:1124/110805.762:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+11월 24, 2021 11:08:05.77 [10652:11724:1124/110805.762:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+11월 24, 2021 11:08:05.77 [10652:11724:1124/110805.764:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.

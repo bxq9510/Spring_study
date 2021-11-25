@@ -1,0 +1,7 @@
+package com.human.service;
+
+import com.human.VO.BBSVO;
+
+public interface IF_BBSService {
+	public void insert(BBSVO bbsvo) throws Exception;
+}

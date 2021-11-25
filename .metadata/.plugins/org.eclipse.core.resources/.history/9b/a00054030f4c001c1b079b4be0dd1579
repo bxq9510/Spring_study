@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix = "c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%-- <h2>Name is ${getName}</h2> --%>
+	<%-- <h2>Memo is ${getMemo}</h2> --%>
+	<!-- 단일변수를 전달 받은 것 -->
+	<!-- bbsList 자료형이 list를 전달 받은 것 -->
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Memo</th>
+		</tr>
+		<!-- jstl 문법으로 많이 사용 -->
+		<c:foreach items="${bbsList }" var="a">
+			<tr>
+				<th>${a.name}</th>
+				<th>${a.memo}</th>
+			</tr>
+		</c:foreach>
+	</table>
+	<hr>
+	<a href="${pageContext.request.contextPath}">for the first page</a>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+  table {
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid black;
+  }
+</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<th><h2>MENU</h2></th>
+			<th><a href="memoForm">Main</a></th>
+			<th><a href="memoInput">Write MEMO</a></th>
+			<th><a href="memoList">Full MEMO</a></th>
+		</tr>
+	</table>
+	<hr>
+</body>
+</html>
