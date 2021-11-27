@@ -72,9 +72,9 @@
 			<td>${status.count - 1}</td>
 			<td>${vo.name }			
 			</td>
-			<td><a href=bbsView?bbsindex=${status.count - 1}>${vo.memo }</td>
-			<td><a href=bbsMod?bbsindex=${status.count - 1}>수정</a>/
-			<a href=bbsDelete?bbsindex=${status.count - 1}>삭제</a></td>			
+			<td><a href=bbsView?bbsindex=${vo.no}>${vo.memo }</td>
+			<td><a href=bbsMod?bbsindex=${vo.no}>수정</a>/
+			<a href=bbsDelete?bbsindex=${vo.no}>삭제</a></td>			
 		</tr>
 		</c:forEach>		
 	  	<!--  여기까지 -->

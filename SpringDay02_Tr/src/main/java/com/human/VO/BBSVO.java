@@ -1,6 +1,7 @@
 package com.human.VO;
 
 public class BBSVO {
+	private int no = 0;
 	private String name=null;
 	private String memo=null;
 	private int cnt=0;
@@ -15,6 +16,12 @@ public class BBSVO {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public int getNo() {
+		return no;
+	}
+	public void setNo(int no) {
+		this.no = no;
 	}
 	public String getMemo() {
 		return memo;
