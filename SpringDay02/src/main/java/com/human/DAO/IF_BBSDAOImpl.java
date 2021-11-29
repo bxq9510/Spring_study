@@ -1,5 +1,7 @@
 package com.human.DAO;
 
+import java.util.List;
+
 import javax.inject.Inject;
 
 import org.apache.ibatis.session.SqlSession;
@@ -17,6 +19,11 @@ public class IF_BBSDAOImpl implements IF_BBSDAO {
 	@Override
 	public void insert(BBSVO bbsvo) throws Exception {
 		sqlSession.insert(mapperquery + ".insert", bbsvo);
+	}
+	@Override
+	public List<BBSVO> selectAll() throws Exception {
+		// TODO Auto-generated method stub
+		return sqlSession.selectList(mapperquery+".bbsList");
 	}
 
 }

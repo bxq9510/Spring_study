@@ -1,0 +1,7 @@
+package com.hm.service;
+
+import com.hm.VO.BrdVO;
+
+public interface IF_BrdService {
+	public void insert(BrdVO brdvo) throws Exception;
+}

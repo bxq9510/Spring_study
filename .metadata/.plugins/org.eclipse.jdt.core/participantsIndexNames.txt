@@ -9,6 +9,10 @@ C:\eclipse\Source\STS_src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\
 \SpringDay0301\src\main\java
 C:\eclipse\Source\STS_src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3590215953.index
 \SpringDay01\src\main\java
+C:\eclipse\Source\STS_src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2513878125.index
+\myBoard01\src\main\java
+C:\eclipse\Source\STS_src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\654603283.index
+\myBoard01\src\main\java
 C:\eclipse\Source\STS_src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\160868447.index
 \SpringDay02\src\main\java
 C:\eclipse\Source\STS_src\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3335938146.index

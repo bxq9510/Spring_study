@@ -1,0 +1,13 @@
+package com.hm.service;
+
+import com.hm.VO.BrdVO;
+
+public class IF_BrdServiceImpl implements IF_BrdService {
+
+	@Override
+	public void insert(BrdVO brdvo) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

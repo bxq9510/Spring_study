@@ -1,3 +1,5 @@
 #Tomcat publish data
-#Thu Nov 25 15:58:43 KST 2021
-org.eclipse.jst.jee.server\:SpringDay02=C\:\\Users\\win\\Desktop\\sts-bundle\\common\\apache-tomcat-8.5.73\\wtpwebapps\\SpringDay02
+#Mon Nov 29 16:05:31 KST 2021
+org.eclipse.jst.jee.server\:SpringDay02_Tr=C\:\\Users\\win\\Desktop\\sts-bundle\\common\\apache-tomcat-8.5.73\\wtpwebapps\\SpringDay02_Tr
+org.eclipse.jst.jee.server\:SpringDay02_01=C\:\\Users\\win\\Desktop\\sts-bundle\\common\\apache-tomcat-8.5.73\\wtpwebapps\\SpringDay02_01
+org.eclipse.jst.jee.server\:myBoard01=C\:\\Users\\win\\Desktop\\sts-bundle\\common\\apache-tomcat-8.5.73\\wtpwebapps\\myBoard01

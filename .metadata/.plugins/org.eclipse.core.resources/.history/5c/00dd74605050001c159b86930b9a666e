@@ -1,0 +1,64 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href='${pageContext.request.contextPath}/resources/css/brd.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<nav id="tMenu">
+    <ul class="dropdown">
+<!--     메인 -->
+      <li>
+        <a class="main" href="brdForm">Main</a>
+      </li>
+<!--       카테고리 -->
+      <li>
+        <a class="drinks" href="#">Drinks</a>
+        <ul>
+          <li><a class="coke" href="#">Coca Cola</a></li>
+          <li><a class="fanta" href="#">Fanta</a></li>
+          <li><a class="cocktails" href="#">Cocktails</a>
+            <ul>
+              <li><a id="long-island" href="#">Long Island Ice Tea</a></li>
+              <li><a class="gin-lemon" href="#">Gin Lemon</a>
+              </li>
+              <li><a class="non-alcoholic" href="#">Non alcoholic</a>
+                <ul>
+                  <li><a href="#">With Milk</a>
+                    <ul>
+                      <li><a href="#">Almond Milk Cooler</a></li>
+                      <li><a id="deepest" href="#">Banana Milk Shake</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Almond Iced Coffee</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+<!--        -->
+      <li>
+        <a class="meat" href="#">Meat</a>
+        <ul>
+          <li><a class="beef" href="#">Beef</a></li>
+          <li><a class="pork" href="#">Pork</a></li>
+        </ul>
+      </li>
+    </ul>
+</nav>
+<table>
+	<tr>
+		<th colspan="2"><h2><a href="brdForm">Baekseon's Pic</a></h2></th>
+	</tr>
+	<tr>
+		<th><a href="brdInput">New Topic</a></th>
+		<th><a href="brdList">Full MEMO</a></th>
+	</tr>
+</table>
+<hr>
+</body>
+</html>

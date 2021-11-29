@@ -1,0 +1,18 @@
+package com.hm.DAO;
+
+import javax.inject.Inject;
+
+import org.apache.ibatis.session.SqlSession;
+
+import com.hm.VO.BrdVO;
+
+public class IF_BrdDAOImpl implements IF_BrdDAO {
+
+	@Inject
+	private SqlSession sqlSession;
+	@Override
+	public void insert(BrdVO brdvo) throws Exception {
+		
+	}
+
+}

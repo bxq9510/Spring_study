@@ -1,0 +1,11 @@
+package com.hm.DAO;
+
+import java.util.List;
+
+import com.hm.VO.BrdVO;
+
+public interface IF_BrdDAO {
+	// 서비스단에서 호출한 작업을 실제 데이터베이스 작업을 실행하기 위한 DAO
+	public void insert(BrdVO brdvo) throws Exception;
+	public List<BrdVO> selectAll() throws Exception;
+}

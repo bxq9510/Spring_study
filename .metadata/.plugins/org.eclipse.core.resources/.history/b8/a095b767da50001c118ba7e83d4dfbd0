@@ -1,0 +1,15 @@
+package com.hm.service;
+
+import java.util.List;
+import com.hm.VO.BrdVO;
+
+public interface IF_BrdService {
+	
+	// 서비스단을 호출하기 위한 메서드 정의.
+	public void insert(BrdVO brdvo) throws Exception;
+	public List<BrdVO> brdList() throws Exception;
+	public BrdVO brdDetail(int vno) throws Exception;
+	public void update(BrdVO brdvo) throws Exception;
+	public BrdVO modBrdForm(int vno) throws Exception;
+	public void delete(int vno) throws Exception;
+}

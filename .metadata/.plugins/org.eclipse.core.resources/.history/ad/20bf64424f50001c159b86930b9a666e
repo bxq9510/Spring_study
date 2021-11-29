@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet" href="CSS/home.css">
+<link data-n-head="ssr" rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Raleway|Spartan:400,700,800&amp;display=swa">
+</head>
+<!-- <script type="text/javascript" -->
+<!-- 		src="https://www.scmplayer.net/script.js" -->
+<!-- 		data-config="{'skin':'skins/black/skin.css','volume':50,'autoplay':false,'shuffle':false,'repeat':2,'placement':'top','showplaylist':false,'playlist':[{'title':'Paris','url':'https://youtu.be/2_5eE-GTwdc'},{'title':'Calvin Harris - Feels (ft. Pharrell Williams, Katy Perry, Big Sean)','url':'https://youtu.be/qXW3CHpv9fc'},{'title':'Erik Frank - Paradise','url':'https://youtu.be/-5LkDnoPvH4'},{'title':'Erik Frank & Alex Parker - Secrets','url':'https://youtu.be/L8lyGxSGFDw'},{'title':'Jake Scott - Off','url':'https://youtu.be/Kz2MLCCdxsM'},{'title':'Maurice Moore - C%27est la vie','url':'https://youtu.be/i1cX04Kul6E'},{'title':'RILEY & Loote- Tell Me Why','url':'https://youtu.be/4g4940CoQso'}]}"> -->
+<!-- </script> -->
+<body>
+	<nav id="tMenu">
+		<ul>
+			<li><a class="mlink" href="login.html"
+				target="_blank">LOGIN</a></li>
+			<li><a class="mlink" href="ho4.html">STORY</a></li>
+			<li><a class="mlink" href="ho3.html">WORKS</a></li>
+			<li><a class="mlink" href="ho2.html">ABOUT</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h1 id="title">
+			BAEKSEON's<br>PIC.
+		</h1>
+	</section>
+</body>
+</html>

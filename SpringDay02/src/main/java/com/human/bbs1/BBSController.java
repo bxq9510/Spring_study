@@ -37,7 +37,7 @@ public class BBSController {
    
    @RequestMapping(value = "/bbsList", method = RequestMethod.GET)
    public String bbsList(Locale locale, Model model) throws Exception {
-      
+      model.addAttribute("bbslist", bbsService.bbsList());
       return "bbs/bbsList";      
    }
    @RequestMapping(value = "/bbsView", method = RequestMethod.GET)

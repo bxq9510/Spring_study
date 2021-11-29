@@ -1,0 +1,16 @@
+package com.hm.service;
+
+import org.springframework.stereotype.Service;
+
+import com.hm.DAO.IF_BrdDAO;
+import com.hm.VO.BrdVO;
+
+@Service
+public class IF_BrdServiceImpl implements IF_BrdService {
+	private IF_BrdDAO brddao;
+	@Override
+	public void insert(BrdVO brdvo) throws Exception {
+		brddao.insert(brdvo);
+	}
+
+}

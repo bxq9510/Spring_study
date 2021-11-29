@@ -1,0 +1,13 @@
+package com.hm.DAO;
+
+import com.hm.VO.BrdVO;
+
+public class IF_BrdDAOImpl implements IF_BrdDAO {
+
+	private SqlSession sqlSession;
+	@Override
+	public void insert(BrdVO brdvo) throws Exception {
+		
+	}
+
+}

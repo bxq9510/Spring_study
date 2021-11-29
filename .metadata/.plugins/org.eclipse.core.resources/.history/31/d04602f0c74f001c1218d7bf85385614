@@ -1,0 +1,53 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+table {
+	width: 50%;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid black;
+}
+</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<th colspan="2"><h2>
+					<a href="brdForm">Baekseon's Pic</a>
+				</h2></th>
+		</tr>
+		<tr>
+			<th><a href="brdInput">New Topic</a></th>
+			<th><a href="brdList">Full MEMO</a></th>
+		</tr>
+	</table>
+	<hr>
+	<form action="brdModSave" method="post">
+		<table>
+			<tr>
+				<th>Title :</th>
+				<th><input type="text" name="title" id="title"/></th>
+				<th>Writer :</th>
+				<th><a name="name">${oneData.name}</a></th>
+			</tr>
+			<tr>
+				<th colspan="4">Memo</th>
+			</tr>
+			<tr>
+				<th colspan="4"><textarea name="memo" id="memo" cols="30" rows="10"></textarea></th>
+			</tr>
+			<tr>
+				<th colspan="4"><input type="submit" value="Save" /></th>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

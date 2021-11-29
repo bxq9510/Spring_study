@@ -1,0 +1,87 @@
+@charset "UTF-8";
+body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	line-height: 1;
+	text-align: center;
+/* 	background-color: #f7f7f7; */
+}
+table#mtable {
+	width: 800px;
+	margin: 0 auto;
+    border-collapse: collapse;
+ 	text-align: left;
+	line-height: 1.5;
+/* 	border-top: 1px solid #444444; */
+}
+table#mtable thead th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #369;
+	border-bottom: 3px solid #036;
+}
+table#mtable tbody th{
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #f3f6f7;
+}
+table#mtable th, td {
+	border-bottom: 1px solid #ccc;
+	vertical-align: top;
+	padding: 10px;
+}
+table#dtable {
+	width: 600px;
+	height: 200px;
+	border: 1px solid #444444;
+	margin: 0 auto;
+    border-collapse: collapse;
+}
+
+thead tr {
+	font: bold 11px Arial;
+	vertical-align: middle;
+	text-decoration: none;
+	text-align: center;
+}
+section {
+	text-align: center;
+	width: 100%;
+}
+header{
+	padding: 5px;
+	font-size: 60px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+a#main {
+	margin-top: 100%;
+	font-weight: 500;
+	line-height: 150px;
+	color: black;
+}
+nav {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+nav ul{
+	list-style: none;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+nav ul li{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+nav ul li a{
+	line-height: 3em;
+}

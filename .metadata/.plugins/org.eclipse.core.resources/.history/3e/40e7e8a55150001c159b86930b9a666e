@@ -1,0 +1,55 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href='${pageContext.request.contextPath}/resources/css/brd.css'
+	rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<nav id="Menu">
+		<ul class="dropdown">
+			<!--     메인 -->
+			<li><a href="brdForm">BAEKSEON</a></li>
+			<!--     로그인 -->
+			<li><a href="#">LOGIN</a></li>
+			<!--       카테고리 -->
+			<li><a class="category" href="#">Category</a>
+				<ul>
+					<li><a class="coke" href="brdList">Pic</a>
+						<ul>
+							<li><a href="brdInput">New Topic</a></li>
+						</ul></li>
+					<li><a class="music" href="brdList">Music</a>
+						<ul>
+							<li><a href="brdInput">New Topic</a></li>
+						</ul></li>
+					<li><a class="game" href="brdList">Game</a>
+						<ul>
+							<li><a href="brdInput">New Topic</a></li>
+						</ul></li>
+				</ul></li>
+			<!--      인포  -->
+			<li><a class="info" href="#">INFO</a>
+				<ul>
+					<li><a class="beef" href="#">Beef</a></li>
+					<li><a class="pork" href="#">Pork</a></li>
+				</ul></li>
+		</ul>
+	</nav>
+	<table>
+		<tr>
+			<th colspan="2"><h2>
+					<a href="brdForm">Baekseon's Pic</a>
+				</h2></th>
+		</tr>
+		<tr>
+			<th><a href="brdInput">New Topic</a></th>
+			<th><a href="brdList">Full MEMO</a></th>
+		</tr>
+	</table>
+	<hr>
+</body>
+</html>

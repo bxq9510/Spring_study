@@ -1,0 +1,53 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href='${pageContext.request.contextPath}/resources/css/brd.css'
+	rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+	<!--     메인 -->
+	<a href="brdForm" id="main">BAEKSEON</a>
+	</header>
+	<nav id="tMenu">
+	<ul>
+		<li><a class="mlink" href="https://popcat.click/" target="_blank">POPCAT</a></li>
+		<li><a class="mlink" href="ho4.html">STORY</a></li>
+		<li><a class="mlink" href="ho3.html">WORKS</a></li>
+		<li><a class="mlink" href="#">ABOUT</a></li>
+	</ul>
+	</nav>
+	<nav id="Menu">
+		<ul class="dropdown">
+			<!--     로그인 -->
+			<li><a href="#">LOGIN</a></li>
+			<!--       카테고리 -->
+			<li><a class="category" href="#">Category</a>
+				<ul>
+					<li><a class="coke" href="brdList">Pic</a>
+						<ul>
+							<li><a href="brdInput">New Topic</a></li>
+						</ul></li>
+					<li><a class="music" href="brdList">Music</a>
+						<ul>
+							<li><a href="brdInput">New Topic</a></li>
+						</ul></li>
+					<li><a class="game" href="brdList">Game</a>
+						<ul>
+							<li><a href="brdInput">New Topic</a></li>
+						</ul></li>
+				</ul></li>
+			<!--      인포  -->
+			<li><a class="info" href="#">INFO</a></li>
+		</ul>
+	</nav>
+	<section id="content">
+		안녕!
+	</section>
+	<hr>
+</body>
+</html>

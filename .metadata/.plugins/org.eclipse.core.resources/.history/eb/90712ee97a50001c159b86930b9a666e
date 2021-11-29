@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href='${pageContext.request.contextPath}/resources/css/brd.css'
+	rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+	<!--     메인 -->
+	<a href="brdForm" id="main">BAEKSEON</a>
+	</header>
+	<nav id="tMenu">
+	<ul>
+		<li><a class="mlink" href="https://popcat.click/" target="_blank">POPCAT</a></li>
+		<li><a class="mlink" href="brdInput">New TOPIC</a></li>
+		<li><a class="mlink" href="brdList">POST</a></li>
+		<li><a class="mlink" href="#">ABOUT</a></li>
+	</ul>
+	</nav>
+	<section id="content">
+		<a class="tlink" href="#"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5eeea355389655.59822ff824b72.gif"></a>
+	</section>
+	<hr>
+</body>
+</html>

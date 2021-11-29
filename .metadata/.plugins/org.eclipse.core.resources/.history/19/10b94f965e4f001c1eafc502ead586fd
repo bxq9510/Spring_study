@@ -1,0 +1,5 @@
+package com.hm.DAO;
+
+public class IF_BrdDAOImpl implements IF_BrdDAO {
+
+}

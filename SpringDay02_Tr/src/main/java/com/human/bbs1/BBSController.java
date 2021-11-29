@@ -41,7 +41,7 @@ public class BBSController {
 	}
 	@RequestMapping(value = "/bbsView", method = RequestMethod.GET)
 	public String bbsView(Locale locale, Model model, @RequestParam("bbsindex") int vidx) {
-
+		
 		
 		return "bbs/bbsView";
 	}
